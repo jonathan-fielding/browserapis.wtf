@@ -1,0 +1,29 @@
+{
+  "name": "browserapis.wtf",
+  "version": "1.0.0",
+  "description": "Web site categorising all the web/browser apis - their code, resources, w3c status and other links.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fielding/browserapis.wtf.git"
+  },
+  "keywords": [
+    "browser",
+    "apis"
+  ],
+  "author": "Ruth John",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathan-fielding/browserapis.wtf/issues"
+  },
+  "homepage": "https://github.com/jonathan-fielding/browserapis.wtf#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "caniuse-api": "^1.4.1"
+  }
+}

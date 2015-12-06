@@ -16,6 +16,8 @@ suggested_uses:
   - Request data from server
   - Post data to a server
   - Replace XMLHttpRequest();
+
+caniuseKey: fetch;
 ---
 
 ```js

@@ -43,6 +43,14 @@
       </section>
     <% end %>
 
+    <% if current_page.data.caniuseKey %>
+      <section class="links-tuts-arts">
+        <h4>Browser Support</h4>
+        
+        <div data-caniuse="<%= current_page.data.w3c_status %>"></div>
+      </section>
+    <% end %>
+
     <% if current_page.data.links_examples %>
       <section class="links-examples">
         <h4>Demos & Examples</h4>
